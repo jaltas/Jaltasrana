@@ -1,0 +1,204 @@
+
+/* header */
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding:2%;
+    background-color:silver;
+    justify-items: flex-start;
+    border:black solid;
+}
+header {
+    background-color:silver;
+    color: #333;
+    display:block;
+    margin: 0% auto;
+}
+  
+  nav ul {
+    list-style-type:none;
+    padding: 0;
+    border: #1a1717 solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+  
+  nav ul li {
+    display: inline;
+  }
+header ul{
+    align-items: center;
+    display:flex;
+    
+}
+
+nav ul li a {
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s;
+    
+  }
+  
+  nav ul li a:hover {
+    background-color:gold;
+  }   
+
+div{
+    color: black;
+    background-color:whitesmoke;
+    padding: 1%;
+}
+.centre {
+    text-align: center;
+  }
+  
+  .centre img {
+    margin: 0 auto; /* it wil centre  horizontally */
+    display: block; /* Image behaves as a block element */
+  }
+  /* the . to select a class*/
+.ajaj{
+    border-radius: 1px solid black;
+}
+h2{
+    color: brown;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+}
+h2:hover{
+    color: burlywood;
+    flex-wrap: wrap;
+}
+.heading1{
+    margin: 19px;;
+    color:cornflowerblue;
+    text-decoration:underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+    justify-content: center;
+    font-size:xx-large;
+    ;
+}
+.hhh
+{
+
+    color:goldenrod;
+    text-align: end;
+    justify-content:flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+/* Style links */
+nav a {
+    text-decoration: sandybrown;
+    color:gold;
+    background-color: aliceblue;
+}
+
+
+form {
+    background-color: lavender;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition:ease-in 2sec;
+    
+}
+/* Style footer */
+footer {
+    background-color: #333;
+    color:snow;
+    padding: 10px;
+    text-align: center;
+}
+/* Apply transitions to specific elements */
+footer {
+    transition: all 0.3s ease;
+    transform:rotate3d(2);
+
+}
+
+/* Style footer */
+footer {
+    background-color:snow;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style footer heading */
+footer h4 {
+    color: greenyellow;
+}
+
+/* Style footer text */
+footer p, footer span {
+    color: black;
+    transition: color 0.3s ease;
+    margin: 2%;
+    animation: ease-in 2s ease-in 1s infinite reverse ;
+}
+
+/* Style footer text on hover */
+footer:hover p, footer:hover span {
+    color: lightgray;
+}
+footer article{
+    border: #333 solid;
+}
+   li{
+    color: purple;
+    display: block;
+    display: flex;
+    height: auto;
+    width: auto
+    
+   }
+   h4{
+    color: #333;
+   }
+   img{
+    justify-content: center;
+    align-content: center;
+   }
+   h3{
+    color:rebeccapurple;
+   }
+   fieldset a{
+    flex-flow: wrap column;
+   }
+   a{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    box-shadow: #333;
+    border: #333;
+    background-color:lavenderblush;
+ 
+   }
+   .Akshay link{
+    background-color:aliceblue;
+   }
+   ol{
+    background-color:snow;
+   }
+   fieldset{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   /*font-family is used to change font type we can use font decoration also for decorting front *\
